@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Awesome Books</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="nav">
+			<div class="logo"><a href="#">Awesome Books</a></div>
+			<ul class="nav-list">
+				<li class="nav-item"><a id="list" class="nav-link">List</a></li>
+				<li class="nav-item"><a id="add" class="nav-link">Add new</a></li>
+				<li class="nav-item"><a id="contact" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="date">
+			<p id="time"></p>
+		</div>
+	</header>
+	<main class="main">
+		<section class="all-books">
+			<h2>All Awesome Books</h2>
+			<div class="added-bklist">
+				<!-- Add the items dynamically in js -->
+			</div>
+		</section>
+		<section class="add-book hide">
+			<h2>Add a new book</h2>
+			<form action="#" id="added-book" class="form">
+				<div class="input-container">
+					<input id="title" type="text" placeholder="Title" required>
+				</div>
+				<br>
+				<div class="input-container">
+					<input id="author" type="text" placeholder="Author" required>
+				</div>
+				<br>
+				<button type="submit">Add</button>
+			</form>
+		</section>
+		<section class="contact hide">
+			<div class="contact-header">
+				<h2>Contact Information</h2>
+			</div>
+			<div class="contact-body">
+				<p>Do you have any questions or you just want to say "Hello"?</p>
+				<p>You can reach out to us!</p>
+			</div>
+			<div class="contact-list">
+				<ul>
+					<li>Our email:ppmaket@gmmail.com</li>
+					<li>Our phone number: +351 185924532</li>
+					<li>Our address: Lisbon, 84503 City, Portugal</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<p class="copy">Copyright</p>
+	</footer>
+
+	<script type="module" src="index.js"></script>
+</body>
+</html>
