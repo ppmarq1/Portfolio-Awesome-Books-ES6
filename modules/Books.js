@@ -1,5 +1,5 @@
 // Form local storage availability checker function
-export function isStorageAvailable(type) {
+export const isStorageAvailable = (type) => {
   let storage;
   try {
     storage = window[type];
@@ -24,7 +24,7 @@ export function isStorageAvailable(type) {
       && storage.length !== 0
     );
   }
-}
+};
 
 // Book add and remove
 
