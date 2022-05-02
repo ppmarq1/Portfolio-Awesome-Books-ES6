@@ -3,7 +3,7 @@
 # Awesome Books - Javascript ES6
 
 > Awesome books - Javascript ES6
-    In this project, we restructurd the Awesome books app code. The goal was to make it more organized by using modules. The code was writen with ES6 syntax.
+    In this project, we restructured the Awesome books app code. The goal was to make it more organized by using modules. The code was writen with ES6 syntax.
 
 
 ## Built With

@@ -1,0 +1,189 @@
+/* CSS here */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  border: 3px solid black;
+  margin: 10px auto 0 auto;
+  padding: 10px 15px;
+}
+
+.logo a {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list > *:not(:last-child) {
+  border-right: 2px solid black;
+}
+
+.nav-item {
+  padding: 15px 10px;
+}
+
+.nav-link {
+  color: black;
+  cursor: pointer;
+  padding: 15px 10px;
+  border: 1px solid black;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.header {
+  width: 100%;
+  max-width: 1440px;
+  margin: 5px auto;
+}
+
+.date {
+  text-align: right;
+  margin: 10px auto;
+  padding: 20px;
+  padding-right: 150px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-books {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 440px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.added-bklist {
+  width: 100%;
+  border: 3px solid black;
+}
+
+.added-bklist div {
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.added-bklist div:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.add-book {
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: 300px;
+  margin-bottom: 130px;
+}
+
+.title,
+.author {
+  text-transform: capitalize;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  max-width: 500px;
+  width: auto;
+}
+
+input {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+}
+
+.form button,
+.remove {
+  align-self: flex-end;
+  padding: 8px 20px;
+  font-size: 17px;
+  border: 2px solid black;
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.2s;
+}
+
+.form button:active,
+.remove:active {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
+.contact-list {
+  margin-left: 30px;
+}
+
+.footer {
+  border: 3px solid black;
+  background-color: lightgray;
+  margin: 0 auto 15px auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 15px;
+  justify-self: flex-end;
+}
