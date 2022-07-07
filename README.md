@@ -14,7 +14,7 @@
 
 ## Live Demo 
 
-Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/Portfolio-Awesome-Books-ES6/)
+Feel free to check the: [Portfolio-link](https://awesome-books-es6.netlify.app/)
 
 
 ### Prerequisites
